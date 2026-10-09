@@ -64,6 +64,7 @@ while True:
         except Exception as e:
             print(f"error in receive or sending data {str(e)}")
 
+
         if msg == "1": # screen shoot
             try:
                 file_data_len = int(my_sock.recv(6).decode())
