@@ -8,7 +8,6 @@ server_sock.listen(3)
 success = 1
 fail = 0
 
-
 def send_data(client, data_len_byte, data):
     if type(data) == str:
         data = data.encode()

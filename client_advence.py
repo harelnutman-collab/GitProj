@@ -2,7 +2,6 @@ import socket
 from PIL import Image
 import os
 
-
 def send_data(client, data_len_byte, data):
     if type(data) == str:
         data = data.encode()
